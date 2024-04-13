@@ -1,0 +1,26 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DUONG-MINH-TUAN/gitTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DUONG-MINH-TUAN/gitTest/issues"
+  },
+  "homepage": "https://github.com/DUONG-MINH-TUAN/gitTest#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "msnodesqlv8": "^4.1.2",
+    "mssql": "^10.0.2",
+    "nodemon": "^3.1.0"
+  }
+}

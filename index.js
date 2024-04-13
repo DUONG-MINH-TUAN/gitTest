@@ -11,7 +11,7 @@ const app = express()
 const port = 3000
 
 //setting the static file as file image
-app.use(express.static(path.join(__dirname,'resources/public')));
+// app.use(express.static(path.join(__dirname,'resources/public')));
 //__dirname: tương đương với đường dẫn
 // vào folder src 
 // link url: localhost:3000/ tương đương
